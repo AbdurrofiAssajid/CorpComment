@@ -37,8 +37,6 @@ const minNumber = 7
 
 
 //  -- WORD COUNTER COMPONENT --
-
-(() => {
     const inputHandler = () => {
         const characters = textareaEl.value.length
         const resultCharacters = maxNumber - characters
@@ -46,14 +44,12 @@ const minNumber = 7
     }
     
     textareaEl.addEventListener('input', inputHandler)
-})();
+
 
 
 
 
 // -- FORM COMPONENT --
-
-(() => {
 
     const formHandler = e => {
         e.preventDefault()
@@ -130,7 +126,7 @@ const minNumber = 7
     }
     
     formEl.addEventListener('submit', formHandler)
-})();
+
 
 
 
