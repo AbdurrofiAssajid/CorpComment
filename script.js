@@ -132,7 +132,6 @@ const minNumber = 7
 
 // -- Feedback components --
 
-(() => {
     const clickHandler = e => {
         const clickedEl = e.target
     
@@ -169,13 +168,13 @@ const minNumber = 7
     
         })
 
-})();
+
 
 
 
     // -- HASHTAG COMPONENT --
 
-(() => {
+
     const hashtagsHandler = e => {
        const hashtagsClickEl = e.target
        
@@ -198,4 +197,3 @@ const minNumber = 7
     }
    hashtagsEl.addEventListener('click',hashtagsHandler)
 
-})();
